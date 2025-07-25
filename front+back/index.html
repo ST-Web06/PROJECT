@@ -14,16 +14,16 @@
         <h1>Управление светодиодом</h1>
 
         <div class="led-control">
-            <img id="led-image" src="images/led-off.png" alt="LED Status">
-            <button id="toggle-led">Переключить светодиод</button>
+            <img class="led-image" id="led-image" src="images/led-off.png" alt="LED Status">
+            <button class="toggle-led" id="toggle-led">Переключить светодиод</button>
         </div>
 
-        <div id="status-message"></div>
+        <div class="status-message" id="status-message"></div>
     </div>
 
     <div class="display-control">
         <h2>Управление дисплеем</h2>
-        <textarea id="display-text" placeholder="Введите текст для дисплея"></textarea>
+        <input type="text" class="display-text" id="display-text" ></input>
         <button id="send-text">Отправить на дисплей</button>
         <div id="display-status" class="status-message"></div>
     </div>

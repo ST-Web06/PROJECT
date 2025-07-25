@@ -26,15 +26,15 @@ h1 {
     margin: 30px 0;
 }
 
-#led-image {
+.led-image {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
 }
 
-#toggle-led {
+.toggle-led {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #2a2b2a;
     color: white;
     border: none;
     border-radius: 4px;
@@ -43,11 +43,11 @@ h1 {
     transition: background-color 0.3s;
 }
 
-#toggle-led:hover {
-    background-color: #45a049;
+.toggle-led:hover {
+    background-color: #596859;
 }
 
-#status-message {
+.status-message {
     text-align: center;
     margin-top: 20px;
     color: #666;
@@ -66,7 +66,7 @@ h1 {
     color: #333;
 }
 
-#display-text {
+.display-text {
     width: 100%;
     min-height: 100px;
     padding: 10px;
