@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление светодиодом</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Управление светодиодом</h1>
+
+        <div class="led-control">
+            <img id="led-image" src="images/led-off.png" alt="LED Status">
+            <button id="toggle-led">Переключить светодиод</button>
+        </div>
+
+        <div id="status-message"></div>
+    </div>
+    <div class="display-control">
+        <h2>Управление дисплеем</h2>
+        <textarea id="display-text" placeholder="Введите текст для дисплея"></textarea>
+        <button id="send-text">Отправить на дисплей</button>
+        <div id="display-status" class="status-message"></div>
+    </div>
+
+</body>
+
+</html>
