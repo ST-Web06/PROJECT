@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.led-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.led-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.toggle-led {
+    padding: 10px 20px;
+    background-color: #2a2b2a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.toggle-led:hover {
+    background-color: #596859;
+}
+
+.status-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-style: italic;
+}
+
+.display-control {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.display-control h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.display-text {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.status-message {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.error {
+    background-color: #f2dede;
+    color: #a94442;
+}

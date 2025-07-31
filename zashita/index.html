@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Управление МК</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Контроль панели</h1>
+    
+    <button onclick="sendCommand('LED_ON')">Включить LED</button>
+    <button onclick="sendCommand('LED_OFF')">Выключить LED</button>
+    
+    <h3>LCD дисплей</h3>
+    <textarea id="lcdText" placeholder="Введите текст"></textarea>
+    <button onclick="sendLCD()">Отправить на LCD</button>
+</body>
+</html>
