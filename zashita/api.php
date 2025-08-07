@@ -21,7 +21,7 @@ function sendSerialCommand($cmd) {
     fclose($port);
     return trim($response);
 }
-
+ 
 try {
     $input = json_decode(file_get_contents('php://input'), true) ?: $_REQUEST;
     
